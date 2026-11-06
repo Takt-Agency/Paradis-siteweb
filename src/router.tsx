@@ -6,14 +6,13 @@ import { PlaceholderPage } from '@/pages/PlaceholderPage'
 
 // Routes publiques prévues au CDC §4.3 — branchées au fur et à mesure
 const UPCOMING = [
-  ROUTES.accommodation,
   `${ROUTES.accommodation}/:slug`,
   ROUTES.events,
   `${ROUTES.events}/:slug`,
   ROUTES.rentals,
   `${ROUTES.rentals}/:slug`,
-  ROUTES.login,
   ROUTES.register,
+  ROUTES.forgotPassword,
   ROUTES.partner,
   ROUTES.assistance,
   ROUTES.agency,
@@ -35,6 +34,15 @@ export const router = createBrowserRouter([
     element: <MainLayout />,
     children: [
       { index: true, element: <HomePage /> },
+      // Chargée à la demande pour alléger la page d'accueil
+      {
+        path: ROUTES.accommodation,
+        lazy: () => import('@/pages/accommodation/AccommodationPage').then((m) => ({ Component: m.AccommodationPage })),
+      },
+      {
+        path: ROUTES.login,
+        lazy: () => import('@/pages/auth/LoginPage').then((m) => ({ Component: m.LoginPage })),
+      },
       ...UPCOMING.map((path) => ({ path, element: <PlaceholderPage /> })),
       { path: '*', element: <PlaceholderPage notFound /> },
     ],

@@ -36,8 +36,7 @@ export function Footer() {
             <Link to={ROUTES.home} className="inline-block">
               <img src={logo} alt="Paradis Direct" width={480} height={98} className="h-10 w-auto" />
             </Link>
-            <p className="mt-3 pl-1 text-sm font-medium uppercase tracking-[0.42em] text-white/90">Book. Go. Enjoy.</p>
-            <p className="mt-7 max-w-sm text-[0.9375rem] leading-relaxed text-white/80">{t('footer.tagline')}</p>
+            <p className="mt-6 max-w-sm text-[0.9375rem] leading-relaxed text-white/80">{t('footer.tagline')}</p>
             <ul className="mt-7 flex flex-wrap gap-2">
               {SOCIAL_LINKS.map((social) => (
                 <li key={social.name}>

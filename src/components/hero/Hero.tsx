@@ -30,7 +30,8 @@ export function Hero() {
     <section
       ref={ref}
       aria-labelledby="hero-title"
-      className="relative isolate flex min-h-[calc(100svh-4.75rem)] flex-col xl:min-h-[max(45rem,calc(100svh-5.625rem))]"
+      // z-10 : les panneaux de recherche passent au-dessus de la section suivante
+      className="relative isolate z-10 flex min-h-[calc(100svh-4.75rem)] flex-col xl:min-h-[max(45rem,calc(100svh-5.625rem))]"
     >
       {/* Seul le décor est recadré : les panneaux de recherche peuvent déborder du hero */}
       <div aria-hidden className="absolute inset-0 -z-10 overflow-hidden">

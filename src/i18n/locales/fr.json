@@ -100,10 +100,22 @@
       "ganvie": "Une expérience unique sur l'eau"
     },
     "highlights": {
-      "beaches": { "title": "Plages", "text": "exceptionnelles" },
-      "heritage": { "title": "Patrimoine", "text": "historique" },
-      "nature": { "title": "Nature", "text": "préservée" },
-      "culture": { "title": "Culture", "text": "authentique" }
+      "beaches": {
+        "title": "Plages",
+        "text": "exceptionnelles"
+      },
+      "heritage": {
+        "title": "Patrimoine",
+        "text": "historique"
+      },
+      "nature": {
+        "title": "Nature",
+        "text": "préservée"
+      },
+      "culture": {
+        "title": "Culture",
+        "text": "authentique"
+      }
     }
   },
   "stays": {
@@ -119,7 +131,8 @@
       "hotel": "Hôtel",
       "guesthouse": "Maison d'hôtes",
       "apartment": "Appartement",
-      "ecolodge": "Écolodge"
+      "ecolodge": "Écolodge",
+      "residence": "Résidence"
     }
   },
   "events": {
@@ -144,9 +157,18 @@
     "title": "Trouvez votre logement pour un séjour prolongé",
     "subtitle": "Appartements, maisons et résidences meublés ou non, pour vos projets professionnels, études ou installation au Bénin.",
     "features": {
-      "contract": { "title": "Contrat", "text": "sécurisé" },
-      "signature": { "title": "Signature", "text": "électronique" },
-      "rent": { "title": "Paiement", "text": "des loyers en ligne" }
+      "contract": {
+        "title": "Contrat",
+        "text": "sécurisé"
+      },
+      "signature": {
+        "title": "Signature",
+        "text": "électronique"
+      },
+      "rent": {
+        "title": "Paiement",
+        "text": "des loyers en ligne"
+      }
     },
     "cta": "Explorer les locations longue durée",
     "categories": {
@@ -161,12 +183,30 @@
     "titleBrand": "Paradis Direct ?",
     "subtitle": "Une plateforme tout-en-un pour voyager, séjourner, réserver vos événements et vous installer au Bénin en toute sérénité.",
     "reasons": {
-      "offer": { "title": "Offre complète", "text": "Hébergements, événements, locations et services." },
-      "secure": { "title": "Réservation sécurisée", "text": "Des transactions fiables et protégées." },
-      "support": { "title": "Assistance dédiée", "text": "Un accompagnement réactif 24h/24 et 7j/7." },
-      "payment": { "title": "Paiement en ligne", "text": "Simple, rapide et sécurisé en FCFA." },
-      "partners": { "title": "Partenaires de confiance", "text": "Des établissements et prestataires vérifiés." },
-      "experience": { "title": "Expérience fluide", "text": "Une plateforme moderne, accessible sur tous vos appareils." }
+      "offer": {
+        "title": "Offre complète",
+        "text": "Hébergements, événements, locations et services."
+      },
+      "secure": {
+        "title": "Réservation sécurisée",
+        "text": "Des transactions fiables et protégées."
+      },
+      "support": {
+        "title": "Assistance dédiée",
+        "text": "Un accompagnement réactif 24h/24 et 7j/7."
+      },
+      "payment": {
+        "title": "Paiement en ligne",
+        "text": "Simple, rapide et sécurisé en FCFA."
+      },
+      "partners": {
+        "title": "Partenaires de confiance",
+        "text": "Des établissements et prestataires vérifiés."
+      },
+      "experience": {
+        "title": "Expérience fluide",
+        "text": "Une plateforme moderne, accessible sur tous vos appareils."
+      }
     }
   },
   "signup": {
@@ -218,6 +258,100 @@
   "common": {
     "comingSoon": "Page en cours de construction.",
     "notFound": "Page introuvable.",
-    "backHome": "Retour à l'accueil"
+    "backHome": "Retour à l'accueil",
+    "home": "Accueil",
+    "breadcrumb": "Fil d’Ariane"
+  },
+  "pagination": {
+    "label": "Pagination",
+    "previous": "Page précédente",
+    "next": "Page suivante",
+    "page": "Page {{page}}"
+  },
+  "staysPage": {
+    "title": "Tous les hébergements",
+    "subtitle": "Hôtels, résidences, maisons d’hôtes et appartements partout au Bénin. Comparez les offres et réservez en toute sécurité.",
+    "results_one": "{{count}} hébergement trouvé",
+    "results_other": "{{count}} hébergements trouvés",
+    "sort": {
+      "label": "Trier par",
+      "recommended": "Pertinence",
+      "priceAsc": "Prix croissant",
+      "priceDesc": "Prix décroissant",
+      "rating": "Mieux notés"
+    },
+    "filters": {
+      "title": "Filtres",
+      "close": "Fermer les filtres",
+      "category": "Type d’hébergement",
+      "destination": "Destination",
+      "allDestinations": "Toutes les destinations",
+      "price": "Prix par nuit",
+      "priceMin": "Prix minimum par nuit",
+      "priceMax": "Prix maximum par nuit",
+      "cancellation": "Conditions d’annulation",
+      "freeCancellation": "Annulation gratuite",
+      "reset": "Réinitialiser",
+      "clearAll": "Tout effacer",
+      "remove": "Retirer le filtre : {{label}}",
+      "showResults": "Voir les résultats",
+      "show_one": "Afficher {{count}} hébergement",
+      "show_other": "Afficher {{count}} hébergements"
+    },
+    "card": {
+      "view": "Voir l’hébergement",
+      "serviceFees": "Hors frais de service",
+      "total_one": "{{total}} FCFA pour {{count}} nuit",
+      "total_other": "{{total}} FCFA pour {{count}} nuits",
+      "freeCancellation": "Annulation gratuite",
+      "available": "Disponible sur vos dates"
+    },
+    "empty": {
+      "title": "Aucun hébergement ne correspond à votre recherche",
+      "text": "Essayez d’autres dates, une autre destination ou retirez certains filtres.",
+      "reset": "Réinitialiser la recherche"
+    },
+    "error": {
+      "title": "Impossible de charger les hébergements",
+      "text": "Vérifiez votre connexion internet puis réessayez.",
+      "retry": "Réessayer"
+    }
+  },
+  "auth": {
+    "email": "Adresse e-mail",
+    "emailPlaceholder": "vous@exemple.com",
+    "password": "Mot de passe",
+    "passwordPlaceholder": "Votre mot de passe",
+    "showPassword": "Afficher le mot de passe",
+    "hidePassword": "Masquer le mot de passe",
+    "errors": {
+      "emailRequired": "Saisissez votre adresse e-mail.",
+      "emailInvalid": "Cette adresse e-mail n’est pas valide.",
+      "passwordRequired": "Saisissez votre mot de passe."
+    },
+    "login": {
+      "title": "Se connecter",
+      "subtitle": "Accédez à votre espace client ou partenaire.",
+      "forgot": "Mot de passe oublié ?",
+      "submit": "Se connecter",
+      "submitting": "Connexion…",
+      "noAccount": "Pas encore de compte ?",
+      "register": "Créer un compte",
+      "partnerTitle": "Vous êtes un professionnel ?",
+      "partnerText": "Hôtels, organisateurs d’événements, propriétaires : proposez vos offres sur Paradis Direct.",
+      "partnerCta": "Devenir partenaire",
+      "panelTitle": "Tout votre séjour au Bénin, au même endroit",
+      "benefits": {
+        "bookings": "Suivez vos réservations et vos billets d’événements",
+        "manage": "Modifiez ou annulez vos réservations en ligne",
+        "rentals": "Gérez votre location longue durée et payez vos loyers"
+      },
+      "errors": {
+        "invalidCredentials": "Adresse e-mail ou mot de passe incorrect.",
+        "accountBlocked": "Votre compte est suspendu. Contactez le support Paradis Direct.",
+        "tooManyAttempts": "Trop de tentatives. Patientez quelques minutes avant de réessayer.",
+        "unavailable": "Le service de connexion est momentanément indisponible. Réessayez dans quelques instants."
+      }
+    }
   }
 }

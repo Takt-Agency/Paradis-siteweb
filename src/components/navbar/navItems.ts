@@ -2,6 +2,7 @@ import type { IconDefinition } from '@fortawesome/fontawesome-svg-core'
 import { faBuilding, faLifeRing } from '@fortawesome/free-regular-svg-icons'
 import { faBed, faDoorOpen, faHeadset, faHotel, faHouseChimney, faKey } from '@fortawesome/free-solid-svg-icons'
 import { ROUTES } from '@/lib/routes'
+import { categorySlug, type StayCategory } from '@/lib/stayCategories'
 
 export type NavMenuEntry = { label: string; hint?: string; to: string; icon: IconDefinition }
 
@@ -9,8 +10,8 @@ export type NavItem =
   | { kind: 'link'; label: string; to: string }
   | { kind: 'menu'; id: string; label: string; items: NavMenuEntry[] }
 
-// Catégories citées au CDC §1.1 — la liste définitive sera gérée par l'administrateur
-const byCategory = (slug: string) => `${ROUTES.accommodation}?categorie=${slug}`
+// Raccourcis vers les résultats filtrés par catégorie
+const byCategory = (key: StayCategory) => `${ROUTES.accommodation}?categorie=${categorySlug(key)}`
 
 export const NAV_ITEMS: NavItem[] = [
   {
@@ -21,8 +22,8 @@ export const NAV_ITEMS: NavItem[] = [
       { label: 'nav.accommodationMenu.all', hint: 'nav.accommodationMenu.allHint', to: ROUTES.accommodation, icon: faBed },
       { label: 'nav.accommodationMenu.hotels', to: byCategory('hotel'), icon: faHotel },
       { label: 'nav.accommodationMenu.residences', to: byCategory('residence'), icon: faBuilding },
-      { label: 'nav.accommodationMenu.guesthouses', to: byCategory('maison-hotes'), icon: faHouseChimney },
-      { label: 'nav.accommodationMenu.apartments', to: byCategory('appartement'), icon: faDoorOpen },
+      { label: 'nav.accommodationMenu.guesthouses', to: byCategory('guesthouse'), icon: faHouseChimney },
+      { label: 'nav.accommodationMenu.apartments', to: byCategory('apartment'), icon: faDoorOpen },
     ],
   },
   { kind: 'link', label: 'nav.events', to: ROUTES.events },

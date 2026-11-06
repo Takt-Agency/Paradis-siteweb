@@ -6,6 +6,7 @@ export const ROUTES = {
   rentals: '/locations-longue-duree',
   login: '/connexion',
   register: '/inscription',
+  forgotPassword: '/mot-de-passe-oublie',
   partner: '/devenir-partenaire',
   assistance: '/assistance',
   agency: '/agence-immobiliere',

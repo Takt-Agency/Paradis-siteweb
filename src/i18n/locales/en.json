@@ -100,10 +100,22 @@
       "ganvie": "A unique experience on the water"
     },
     "highlights": {
-      "beaches": { "title": "Exceptional", "text": "beaches" },
-      "heritage": { "title": "Historic", "text": "heritage" },
-      "nature": { "title": "Unspoilt", "text": "nature" },
-      "culture": { "title": "Authentic", "text": "culture" }
+      "beaches": {
+        "title": "Exceptional",
+        "text": "beaches"
+      },
+      "heritage": {
+        "title": "Historic",
+        "text": "heritage"
+      },
+      "nature": {
+        "title": "Unspoilt",
+        "text": "nature"
+      },
+      "culture": {
+        "title": "Authentic",
+        "text": "culture"
+      }
     }
   },
   "stays": {
@@ -119,7 +131,8 @@
       "hotel": "Hotel",
       "guesthouse": "Guesthouse",
       "apartment": "Apartment",
-      "ecolodge": "Ecolodge"
+      "ecolodge": "Ecolodge",
+      "residence": "Residence"
     }
   },
   "events": {
@@ -144,9 +157,18 @@
     "title": "Find your home for an extended stay",
     "subtitle": "Furnished or unfurnished apartments, houses and residences for your work, studies or move to Benin.",
     "features": {
-      "contract": { "title": "Secure", "text": "lease" },
-      "signature": { "title": "Electronic", "text": "signature" },
-      "rent": { "title": "Rent paid", "text": "online" }
+      "contract": {
+        "title": "Secure",
+        "text": "lease"
+      },
+      "signature": {
+        "title": "Electronic",
+        "text": "signature"
+      },
+      "rent": {
+        "title": "Rent paid",
+        "text": "online"
+      }
     },
     "cta": "Explore long-term rentals",
     "categories": {
@@ -161,12 +183,30 @@
     "titleBrand": "Paradis Direct?",
     "subtitle": "An all-in-one platform to travel, stay, book your events and settle in Benin with complete peace of mind.",
     "reasons": {
-      "offer": { "title": "Complete offer", "text": "Accommodation, events, rentals and services." },
-      "secure": { "title": "Secure booking", "text": "Reliable, protected transactions." },
-      "support": { "title": "Dedicated support", "text": "Responsive assistance 24/7." },
-      "payment": { "title": "Online payment", "text": "Simple, fast and secure, in FCFA." },
-      "partners": { "title": "Trusted partners", "text": "Verified establishments and providers." },
-      "experience": { "title": "Seamless experience", "text": "A modern platform, available on all your devices." }
+      "offer": {
+        "title": "Complete offer",
+        "text": "Accommodation, events, rentals and services."
+      },
+      "secure": {
+        "title": "Secure booking",
+        "text": "Reliable, protected transactions."
+      },
+      "support": {
+        "title": "Dedicated support",
+        "text": "Responsive assistance 24/7."
+      },
+      "payment": {
+        "title": "Online payment",
+        "text": "Simple, fast and secure, in FCFA."
+      },
+      "partners": {
+        "title": "Trusted partners",
+        "text": "Verified establishments and providers."
+      },
+      "experience": {
+        "title": "Seamless experience",
+        "text": "A modern platform, available on all your devices."
+      }
     }
   },
   "signup": {
@@ -218,6 +258,100 @@
   "common": {
     "comingSoon": "This page is under construction.",
     "notFound": "Page not found.",
-    "backHome": "Back to home"
+    "backHome": "Back to home",
+    "home": "Home",
+    "breadcrumb": "Breadcrumb"
+  },
+  "pagination": {
+    "label": "Pagination",
+    "previous": "Previous page",
+    "next": "Next page",
+    "page": "Page {{page}}"
+  },
+  "staysPage": {
+    "title": "All accommodation",
+    "subtitle": "Hotels, residences, guesthouses and apartments all over Benin. Compare offers and book securely.",
+    "results_one": "{{count}} place to stay found",
+    "results_other": "{{count}} places to stay found",
+    "sort": {
+      "label": "Sort by",
+      "recommended": "Relevance",
+      "priceAsc": "Price: low to high",
+      "priceDesc": "Price: high to low",
+      "rating": "Top rated"
+    },
+    "filters": {
+      "title": "Filters",
+      "close": "Close filters",
+      "category": "Type of accommodation",
+      "destination": "Destination",
+      "allDestinations": "All destinations",
+      "price": "Price per night",
+      "priceMin": "Minimum price per night",
+      "priceMax": "Maximum price per night",
+      "cancellation": "Cancellation policy",
+      "freeCancellation": "Free cancellation",
+      "reset": "Reset",
+      "clearAll": "Clear all",
+      "remove": "Remove filter: {{label}}",
+      "showResults": "Show results",
+      "show_one": "Show {{count}} place to stay",
+      "show_other": "Show {{count}} places to stay"
+    },
+    "card": {
+      "view": "View accommodation",
+      "serviceFees": "Service fees not included",
+      "total_one": "{{total}} FCFA for {{count}} night",
+      "total_other": "{{total}} FCFA for {{count}} nights",
+      "freeCancellation": "Free cancellation",
+      "available": "Available on your dates"
+    },
+    "empty": {
+      "title": "No accommodation matches your search",
+      "text": "Try other dates, another destination or remove some filters.",
+      "reset": "Reset search"
+    },
+    "error": {
+      "title": "Unable to load accommodation",
+      "text": "Check your internet connection and try again.",
+      "retry": "Try again"
+    }
+  },
+  "auth": {
+    "email": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "password": "Password",
+    "passwordPlaceholder": "Your password",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "errors": {
+      "emailRequired": "Enter your email address.",
+      "emailInvalid": "This email address is not valid.",
+      "passwordRequired": "Enter your password."
+    },
+    "login": {
+      "title": "Log in",
+      "subtitle": "Access your customer or partner account.",
+      "forgot": "Forgot password?",
+      "submit": "Log in",
+      "submitting": "Logging in…",
+      "noAccount": "Don’t have an account yet?",
+      "register": "Create an account",
+      "partnerTitle": "Are you a professional?",
+      "partnerText": "Hotels, event organisers, property owners: list your offers on Paradis Direct.",
+      "partnerCta": "Become a partner",
+      "panelTitle": "Your whole stay in Benin, in one place",
+      "benefits": {
+        "bookings": "Track your bookings and event tickets",
+        "manage": "Change or cancel your bookings online",
+        "rentals": "Manage your long-term rental and pay your rent"
+      },
+      "errors": {
+        "invalidCredentials": "Incorrect email address or password.",
+        "accountBlocked": "Your account is suspended. Please contact Paradis Direct support.",
+        "tooManyAttempts": "Too many attempts. Please wait a few minutes before trying again.",
+        "unavailable": "The login service is temporarily unavailable. Please try again shortly."
+      }
+    }
   }
 }
