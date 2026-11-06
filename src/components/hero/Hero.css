@@ -1,0 +1,23 @@
+/* Voile clair pour garantir la lisibilité du texte sur la photo */
+.hero-overlay {
+  background: linear-gradient(
+    180deg,
+    rgb(247 248 250 / 0.94) 0%,
+    rgb(247 248 250 / 0.86) 45%,
+    rgb(247 248 250 / 0.5) 100%
+  );
+}
+
+@media (min-width: 1280px) {
+  .hero-overlay {
+    background:
+      linear-gradient(
+        90deg,
+        rgb(247 248 250 / 0.96) 0%,
+        rgb(247 248 250 / 0.9) 30%,
+        rgb(247 248 250 / 0.5) 50%,
+        rgb(247 248 250 / 0) 68%
+      ),
+      linear-gradient(0deg, rgb(9 24 39 / 0.18) 0%, rgb(9 24 39 / 0) 30%);
+  }
+}

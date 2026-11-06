@@ -1,0 +1,223 @@
+{
+  "nav": {
+    "accommodation": "Accommodation",
+    "events": "Events",
+    "longStay": "Long-term rentals",
+    "services": "Services",
+    "login": "Log in",
+    "partner": "Become a partner",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "accommodationMenu": {
+      "all": "All accommodation",
+      "allHint": "Browse the full offer",
+      "hotels": "Hotels",
+      "residences": "Residences",
+      "guesthouses": "Guesthouses",
+      "apartments": "Apartments"
+    },
+    "servicesMenu": {
+      "assistant": "24/7 assistance",
+      "assistantHint": "An assistant to answer your questions, any time",
+      "agency": "Paradis real estate agency",
+      "agencyHint": "Long-term rentals, leases and rent paid online",
+      "claims": "Claims",
+      "claimsHint": "Report an issue and follow its resolution"
+    }
+  },
+  "languages": {
+    "fr": "Français",
+    "en": "English"
+  },
+  "hero": {
+    "eyebrow": "Benin, West Africa",
+    "titleLine1": "Discover",
+    "titleLine2": "the soul of Benin",
+    "subtitle": "Accommodation, events, long-term rentals and services dedicated to travellers."
+  },
+  "search": {
+    "label": "Search Paradis Direct",
+    "tabs": {
+      "stays": "Accommodation",
+      "events": "Events",
+      "rentals": "Long-term rental"
+    },
+    "destination": "Destination",
+    "destinationPlaceholder": "Where are you going?",
+    "place": "Location",
+    "placePlaceholder": "City or venue",
+    "area": "Location / area",
+    "areaPlaceholder": "City or neighbourhood",
+    "dates": "Dates",
+    "datesPlaceholder": "Check-in – Check-out",
+    "period": "Period",
+    "periodPlaceholder": "Any date",
+    "category": "Category",
+    "allCategories": "All categories",
+    "moveIn": "Move-in date",
+    "moveInPlaceholder": "As soon as possible",
+    "budget": "Monthly budget",
+    "budgetPlaceholder": "Max. rent (FCFA)",
+    "guests": "Guests",
+    "guest_one": "{{count}} guest",
+    "guest_other": "{{count}} guests",
+    "guestsHint": "Adults and children",
+    "decrease": "Remove a guest",
+    "increase": "Add a guest",
+    "night_one": "{{count}} night",
+    "night_other": "{{count}} nights",
+    "pickArrival": "Choose your check-in date",
+    "pickDeparture": "Choose your check-out date",
+    "pickStart": "Choose the start of the period",
+    "pickEnd": "Choose the end of the period",
+    "clear": "Clear",
+    "apply": "Apply",
+    "submit": "Search"
+  },
+  "eventCategories": {
+    "festival": "Festival",
+    "concert": "Concert",
+    "culture": "Culture",
+    "sport": "Sport",
+    "conference": "Conference"
+  },
+  "trust": {
+    "secure": "Secure booking",
+    "support": "24/7 assistance",
+    "payment": "Online payment"
+  },
+  "destinations": {
+    "eyebrow": "Explore Benin",
+    "title": "Discover Benin differently",
+    "subtitle": "From idyllic beaches to cities steeped in history, find your next destination.",
+    "previous": "Previous destinations",
+    "next": "Next destinations",
+    "items": {
+      "cotonou": "Urban energy and city life",
+      "grand-popo": "Beaches and relaxation",
+      "ouidah": "Culture and heritage",
+      "ganvie": "A unique experience on the water"
+    },
+    "highlights": {
+      "beaches": { "title": "Exceptional", "text": "beaches" },
+      "heritage": { "title": "Historic", "text": "heritage" },
+      "nature": { "title": "Unspoilt", "text": "nature" },
+      "culture": { "title": "Authentic", "text": "culture" }
+    }
+  },
+  "stays": {
+    "eyebrow": "Accommodation",
+    "title": "Accommodation for every kind of stay",
+    "subtitle": "Hotels, guesthouses, apartments and residences: find the ideal place in Benin.",
+    "viewAll": "View all accommodation",
+    "rating_one": "Rated {{value}} out of 5, {{count}} review",
+    "rating_other": "Rated {{value}} out of 5, {{count}} reviews",
+    "reviews_one": "({{count}} review)",
+    "reviews_other": "({{count}} reviews)",
+    "categories": {
+      "hotel": "Hotel",
+      "guesthouse": "Guesthouse",
+      "apartment": "Apartment",
+      "ecolodge": "Ecolodge"
+    }
+  },
+  "events": {
+    "eyebrow": "Events",
+    "title": "Events not to be missed",
+    "subtitle": "Festivals, culture, music, sport… Experience Benin to the rhythm of its events.",
+    "viewAll": "View all events",
+    "categories": {
+      "culture": "Culture",
+      "music": "Music",
+      "sport": "Sport",
+      "crafts": "Crafts"
+    }
+  },
+  "experiences": {
+    "title": "Live unique experiences in Benin",
+    "text": "Culture, nature, relaxation and authentic encounters.",
+    "cta": "Discover the experiences"
+  },
+  "rentals": {
+    "eyebrow": "Long-term rental",
+    "title": "Find your home for an extended stay",
+    "subtitle": "Furnished or unfurnished apartments, houses and residences for your work, studies or move to Benin.",
+    "features": {
+      "contract": { "title": "Secure", "text": "lease" },
+      "signature": { "title": "Electronic", "text": "signature" },
+      "rent": { "title": "Rent paid", "text": "online" }
+    },
+    "cta": "Explore long-term rentals",
+    "categories": {
+      "apartment": "Apartment",
+      "house": "House",
+      "residence": "Residence"
+    }
+  },
+  "why": {
+    "eyebrow": "Why Paradis Direct?",
+    "titleStart": "Why choose",
+    "titleBrand": "Paradis Direct?",
+    "subtitle": "An all-in-one platform to travel, stay, book your events and settle in Benin with complete peace of mind.",
+    "reasons": {
+      "offer": { "title": "Complete offer", "text": "Accommodation, events, rentals and services." },
+      "secure": { "title": "Secure booking", "text": "Reliable, protected transactions." },
+      "support": { "title": "Dedicated support", "text": "Responsive assistance 24/7." },
+      "payment": { "title": "Online payment", "text": "Simple, fast and secure, in FCFA." },
+      "partners": { "title": "Trusted partners", "text": "Verified establishments and providers." },
+      "experience": { "title": "Seamless experience", "text": "A modern platform, available on all your devices." }
+    }
+  },
+  "signup": {
+    "title": "Ready to experience Benin differently?",
+    "text": "Book, explore, stay and enjoy everything Benin has to offer with Paradis Direct.",
+    "cta": "Create a free account"
+  },
+  "listing": {
+    "from": "From",
+    "perNight": "/ night",
+    "perMonth": "/ month"
+  },
+  "favorites": {
+    "add": "Add {{name}} to favourites",
+    "remove": "Remove {{name}} from favourites"
+  },
+  "footer": {
+    "tagline": "The travel services platform to discover, stay in and experience Benin differently.",
+    "services": {
+      "title": "Our services",
+      "other": "Other services"
+    },
+    "info": {
+      "title": "Information",
+      "about": "About Paradis",
+      "howItWorks": "How it works",
+      "faq": "Frequently asked questions",
+      "terms": "Terms of use",
+      "cancellation": "Cancellation policy",
+      "privacy": "Privacy policy",
+      "legal": "Legal notice"
+    },
+    "partners": {
+      "title": "Partners",
+      "space": "Partner area",
+      "pro": "Our pro solutions"
+    },
+    "newsletter": {
+      "title": "Stay informed",
+      "text": "Get our best deals, events and news from Benin.",
+      "placeholder": "Your email address",
+      "submit": "Subscribe to the newsletter",
+      "success": "Thank you! Your subscription has been saved.",
+      "invalid": "Please enter a valid email address.",
+      "error": "Subscription failed. Please try again later."
+    },
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "comingSoon": "This page is under construction.",
+    "notFound": "Page not found.",
+    "backHome": "Back to home"
+  }
+}

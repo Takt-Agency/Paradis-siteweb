@@ -1,0 +1,223 @@
+{
+  "nav": {
+    "accommodation": "Hébergements",
+    "events": "Événements",
+    "longStay": "Locations longue durée",
+    "services": "Services",
+    "login": "Se connecter",
+    "partner": "Devenir partenaire",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "language": "Langue",
+    "accommodationMenu": {
+      "all": "Tous les hébergements",
+      "allHint": "Parcourir toute l'offre",
+      "hotels": "Hôtels",
+      "residences": "Résidences",
+      "guesthouses": "Maisons d'hôtes",
+      "apartments": "Appartements"
+    },
+    "servicesMenu": {
+      "assistant": "Assistance 24h/24",
+      "assistantHint": "Un assistant pour répondre à vos questions, à toute heure",
+      "agency": "Agence immobilière Paradis",
+      "agencyHint": "Location longue durée, contrats et loyers en ligne",
+      "claims": "Réclamations",
+      "claimsHint": "Signalez un problème et suivez son traitement"
+    }
+  },
+  "languages": {
+    "fr": "Français",
+    "en": "English"
+  },
+  "hero": {
+    "eyebrow": "Bénin, Afrique de l'Ouest",
+    "titleLine1": "Découvrez",
+    "titleLine2": "l’âme du Bénin",
+    "subtitle": "Hébergements, événements, locations longue durée et services dédiés aux voyageurs."
+  },
+  "search": {
+    "label": "Rechercher sur Paradis Direct",
+    "tabs": {
+      "stays": "Hébergements",
+      "events": "Événements",
+      "rentals": "Location longue durée"
+    },
+    "destination": "Destination",
+    "destinationPlaceholder": "Où allez-vous ?",
+    "place": "Lieu",
+    "placePlaceholder": "Ville ou lieu",
+    "area": "Lieu / quartier",
+    "areaPlaceholder": "Ville ou quartier",
+    "dates": "Dates",
+    "datesPlaceholder": "Arrivée – Départ",
+    "period": "Période",
+    "periodPlaceholder": "Toutes les dates",
+    "category": "Catégorie",
+    "allCategories": "Toutes les catégories",
+    "moveIn": "Date d'entrée",
+    "moveInPlaceholder": "Dès que possible",
+    "budget": "Budget mensuel",
+    "budgetPlaceholder": "Loyer max. (FCFA)",
+    "guests": "Voyageurs",
+    "guest_one": "{{count}} voyageur",
+    "guest_other": "{{count}} voyageurs",
+    "guestsHint": "Adultes et enfants",
+    "decrease": "Retirer un voyageur",
+    "increase": "Ajouter un voyageur",
+    "night_one": "{{count}} nuit",
+    "night_other": "{{count}} nuits",
+    "pickArrival": "Choisissez la date d'arrivée",
+    "pickDeparture": "Choisissez la date de départ",
+    "pickStart": "Choisissez le début de la période",
+    "pickEnd": "Choisissez la fin de la période",
+    "clear": "Effacer",
+    "apply": "Valider",
+    "submit": "Rechercher"
+  },
+  "eventCategories": {
+    "festival": "Festival",
+    "concert": "Concert",
+    "culture": "Culture",
+    "sport": "Sport",
+    "conference": "Conférence"
+  },
+  "trust": {
+    "secure": "Réservation sécurisée",
+    "support": "Assistance 24h/24",
+    "payment": "Paiement en ligne"
+  },
+  "destinations": {
+    "eyebrow": "Explorez le Bénin",
+    "title": "Découvrez le Bénin autrement",
+    "subtitle": "Des plages paradisiaques aux villes chargées d'histoire, trouvez votre prochaine destination.",
+    "previous": "Destinations précédentes",
+    "next": "Destinations suivantes",
+    "items": {
+      "cotonou": "L'énergie et la vie urbaine",
+      "grand-popo": "Plages et détente",
+      "ouidah": "Culture et patrimoine",
+      "ganvie": "Une expérience unique sur l'eau"
+    },
+    "highlights": {
+      "beaches": { "title": "Plages", "text": "exceptionnelles" },
+      "heritage": { "title": "Patrimoine", "text": "historique" },
+      "nature": { "title": "Nature", "text": "préservée" },
+      "culture": { "title": "Culture", "text": "authentique" }
+    }
+  },
+  "stays": {
+    "eyebrow": "Hébergements",
+    "title": "Des hébergements pour tous les séjours",
+    "subtitle": "Hôtels, maisons d'hôtes, appartements et résidences : trouvez le lieu idéal au Bénin.",
+    "viewAll": "Voir tous les hébergements",
+    "rating_one": "Note : {{value}} sur 5, {{count}} avis",
+    "rating_other": "Note : {{value}} sur 5, {{count}} avis",
+    "reviews_one": "({{count}} avis)",
+    "reviews_other": "({{count}} avis)",
+    "categories": {
+      "hotel": "Hôtel",
+      "guesthouse": "Maison d'hôtes",
+      "apartment": "Appartement",
+      "ecolodge": "Écolodge"
+    }
+  },
+  "events": {
+    "eyebrow": "Événements",
+    "title": "Les événements à ne pas manquer",
+    "subtitle": "Festivals, culture, musique, sport… Vivez le Bénin au rythme de ses événements.",
+    "viewAll": "Voir tous les événements",
+    "categories": {
+      "culture": "Culture",
+      "music": "Musique",
+      "sport": "Sport",
+      "crafts": "Artisanat"
+    }
+  },
+  "experiences": {
+    "title": "Vivez des expériences uniques au Bénin",
+    "text": "Culture, nature, détente et rencontres authentiques.",
+    "cta": "Découvrir les expériences"
+  },
+  "rentals": {
+    "eyebrow": "Location longue durée",
+    "title": "Trouvez votre logement pour un séjour prolongé",
+    "subtitle": "Appartements, maisons et résidences meublés ou non, pour vos projets professionnels, études ou installation au Bénin.",
+    "features": {
+      "contract": { "title": "Contrat", "text": "sécurisé" },
+      "signature": { "title": "Signature", "text": "électronique" },
+      "rent": { "title": "Paiement", "text": "des loyers en ligne" }
+    },
+    "cta": "Explorer les locations longue durée",
+    "categories": {
+      "apartment": "Appartement",
+      "house": "Maison",
+      "residence": "Résidence"
+    }
+  },
+  "why": {
+    "eyebrow": "Pourquoi Paradis Direct ?",
+    "titleStart": "Pourquoi choisir",
+    "titleBrand": "Paradis Direct ?",
+    "subtitle": "Une plateforme tout-en-un pour voyager, séjourner, réserver vos événements et vous installer au Bénin en toute sérénité.",
+    "reasons": {
+      "offer": { "title": "Offre complète", "text": "Hébergements, événements, locations et services." },
+      "secure": { "title": "Réservation sécurisée", "text": "Des transactions fiables et protégées." },
+      "support": { "title": "Assistance dédiée", "text": "Un accompagnement réactif 24h/24 et 7j/7." },
+      "payment": { "title": "Paiement en ligne", "text": "Simple, rapide et sécurisé en FCFA." },
+      "partners": { "title": "Partenaires de confiance", "text": "Des établissements et prestataires vérifiés." },
+      "experience": { "title": "Expérience fluide", "text": "Une plateforme moderne, accessible sur tous vos appareils." }
+    }
+  },
+  "signup": {
+    "title": "Prêt à vivre le Bénin autrement ?",
+    "text": "Réservez, explorez, séjournez et profitez de tout ce que le Bénin a à offrir avec Paradis Direct.",
+    "cta": "Créer un compte gratuitement"
+  },
+  "listing": {
+    "from": "À partir de",
+    "perNight": "/ nuit",
+    "perMonth": "/ mois"
+  },
+  "favorites": {
+    "add": "Ajouter {{name}} aux favoris",
+    "remove": "Retirer {{name}} des favoris"
+  },
+  "footer": {
+    "tagline": "La plateforme de services aux voyageurs pour découvrir, séjourner et vivre le Bénin autrement.",
+    "services": {
+      "title": "Nos services",
+      "other": "Autres services"
+    },
+    "info": {
+      "title": "Informations",
+      "about": "À propos de Paradis",
+      "howItWorks": "Comment ça marche ?",
+      "faq": "Foire aux questions (FAQ)",
+      "terms": "Conditions d'utilisation",
+      "cancellation": "Conditions d'annulation",
+      "privacy": "Politique de confidentialité",
+      "legal": "Mentions légales"
+    },
+    "partners": {
+      "title": "Partenaires",
+      "space": "Espace partenaire",
+      "pro": "Nos solutions pro"
+    },
+    "newsletter": {
+      "title": "Restez informé",
+      "text": "Recevez nos bons plans, événements et nouveautés du Bénin.",
+      "placeholder": "Votre adresse e-mail",
+      "submit": "S'inscrire à la newsletter",
+      "success": "Merci ! Votre inscription est bien enregistrée.",
+      "invalid": "Veuillez saisir une adresse e-mail valide.",
+      "error": "L'inscription n'a pas pu aboutir. Réessayez plus tard."
+    },
+    "rights": "Tous droits réservés."
+  },
+  "common": {
+    "comingSoon": "Page en cours de construction.",
+    "notFound": "Page introuvable.",
+    "backHome": "Retour à l'accueil"
+  }
+}

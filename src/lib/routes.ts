@@ -1,0 +1,23 @@
+// Chemins publics du site (CDC §4.3)
+export const ROUTES = {
+  home: '/',
+  accommodation: '/hebergements',
+  events: '/evenements',
+  rentals: '/locations-longue-duree',
+  login: '/connexion',
+  register: '/inscription',
+  partner: '/devenir-partenaire',
+  assistance: '/assistance',
+  agency: '/agence-immobiliere',
+  claims: '/espace-client/reclamations',
+  services: '/services',
+  about: '/a-propos',
+  howItWorks: '/comment-ca-marche',
+  faq: '/faq',
+  partnerSpace: '/espace-partenaire',
+  proSolutions: '/solutions-pro',
+  terms: '/conditions-generales',
+  cancellation: '/conditions-annulation',
+  privacy: '/politique-de-confidentialite',
+  legal: '/mentions-legales',
+} as const
