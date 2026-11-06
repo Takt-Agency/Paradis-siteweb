@@ -1,0 +1,15 @@
+# Déploiement Netlify du site public
+[build]
+  command = "pnpm build"
+  publish = "dist"
+
+# Le fichier .env n'est pas versionné : les variables de build sont déclarées ici.
+# Quand le back-end sera en ligne : VITE_DEMO_DATA = "false" et VITE_API_URL = URL publique de l'API.
+[build.environment]
+  VITE_DEMO_DATA = "true"
+
+# Application monopage : toutes les URL (/hebergements, /connexion…) sont servies par index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
