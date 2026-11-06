@@ -32,12 +32,11 @@ export function EventCard({ event, favorite, onToggleFavorite }: Props) {
         <time
           dateTime={event.end ? `${event.start}/${event.end}` : event.start}
           aria-label={formatEventDatesLong(start, end, lang)}
-          className="absolute left-2.5 top-2.5 flex min-h-[3.75rem] min-w-32 items-center gap-2.5 rounded-xl bg-white px-3 py-2 shadow-[0_6px_16px_-10px_rgba(19,46,73,0.5)]"
+          className="absolute left-2.5 top-2.5 flex h-10 items-center gap-2 whitespace-nowrap rounded-full bg-white px-3.5 shadow-[0_6px_16px_-10px_rgba(19,46,73,0.5)]"
         >
-          <FontAwesomeIcon icon={faCalendarDays} className="text-xl text-brand-500" />
-          <span aria-hidden className="text-[0.9375rem] font-semibold leading-tight text-navy-700">
-            <span className="block whitespace-nowrap">{dates.days}</span>
-            <span className="block whitespace-nowrap">{dates.month}</span>
+          <FontAwesomeIcon icon={faCalendarDays} className="text-base text-brand-500" />
+          <span aria-hidden className="text-[0.9375rem] font-semibold text-navy-700">
+            {dates.days} {dates.month}
           </span>
         </time>
       }

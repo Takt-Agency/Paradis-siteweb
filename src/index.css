@@ -66,6 +66,21 @@
 }
 
 /* Défilement horizontal sans barre visible (carrousels) */
+/* Dégradé sombre progressif (courbe adoucie) pour lire un texte posé sur une photo */
+@utility scrim-bottom {
+  background-image: linear-gradient(
+    to top,
+    rgb(9 24 39 / 0.94) 0%,
+    rgb(9 24 39 / 0.86) 14%,
+    rgb(9 24 39 / 0.7) 26%,
+    rgb(9 24 39 / 0.5) 37%,
+    rgb(9 24 39 / 0.3) 48%,
+    rgb(9 24 39 / 0.15) 58%,
+    rgb(9 24 39 / 0.05) 67%,
+    transparent 76%
+  );
+}
+
 @utility no-scrollbar {
   scrollbar-width: none;
 

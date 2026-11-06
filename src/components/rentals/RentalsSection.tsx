@@ -85,7 +85,7 @@ export function RentalsSection() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.8, ease: EASE_OUT }}
-            className="mx-auto w-full max-w-[38rem] drop-shadow-[0_30px_40px_rgba(0,0,0,0.25)] lg:mr-0"
+            className="mx-auto w-full max-w-[38rem] [filter:drop-shadow(0_18px_24px_rgba(0,0,0,0.35))_drop-shadow(0_45px_60px_rgba(0,0,0,0.4))] lg:mr-0"
           />
         </div>
 

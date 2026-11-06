@@ -22,9 +22,9 @@ export function DestinationCard({ destination }: { destination: Destination }) {
           alt=""
           loading="lazy"
           decoding="async"
-          className="absolute inset-x-0 top-0 h-[80%] w-full object-cover transition-transform duration-700 ease-out-soft group-hover:scale-105"
+          className="absolute inset-0 size-full object-cover transition-transform duration-700 ease-out-soft group-hover:scale-105"
         />
-        <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-navy-900 from-25% via-navy-900/40 via-50% to-transparent to-75%" />
+        <div aria-hidden className="scrim-bottom absolute inset-0" />
 
         <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-4 p-5 sm:p-6">
           <div className="min-w-0">
